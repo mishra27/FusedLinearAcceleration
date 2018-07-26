@@ -111,8 +111,8 @@ public class AccelerationSensor implements SensorEventListener {
         // registered, register to listen for sensor events from the device.
         if (observersAcceleration.size() == 0) {
             sensorManager.registerListener(this,
-                    sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
-                    SensorManager.SENSOR_DELAY_FASTEST);
+                    sensorManager.getDefaultSensor(Sensor.TYPE_LINEAR_ACCELERATION),
+                    SensorManager.SENSOR_DELAY_GAME);
         }
 
         // Only register the observer if it is not already registered.
@@ -147,7 +147,7 @@ public class AccelerationSensor implements SensorEventListener {
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+        if (event.sensor.getType() == Sensor.TYPE_LINEAR_ACCELERATION) {
             System.arraycopy(event.values, 0, acceleration, 0,
                     event.values.length);
 

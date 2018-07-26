@@ -108,7 +108,7 @@ public class GravitySensor implements SensorEventListener {
         if (observersAcceleration.size() == 0) {
             sensorManager.registerListener(this,
                     sensorManager.getDefaultSensor(Sensor.TYPE_GRAVITY),
-                    SensorManager.SENSOR_DELAY_FASTEST);
+                    SensorManager.SENSOR_DELAY_GAME);
         }
 
         // Only register the observer if it is not already registered.

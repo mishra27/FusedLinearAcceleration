@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Gunna/Fused-Linear-Acceleration/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "C:\\Users\\aksha\\Desktop\\FusedLinearAcceleration-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/Gunna/Fused-Linear-Acceleration/app/src/main/res/values-v14/styles.xml",
+                    "source": "C:\\Users\\aksha\\Desktop\\FusedLinearAcceleration-master\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",

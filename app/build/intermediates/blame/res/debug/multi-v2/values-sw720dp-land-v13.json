@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Gunna/Fused-Linear-Acceleration/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "outputFile": "C:\\Users\\aksha\\Desktop\\FusedLinearAcceleration-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/Gunna/Fused-Linear-Acceleration/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "source": "C:\\Users\\aksha\\Desktop\\FusedLinearAcceleration-master\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

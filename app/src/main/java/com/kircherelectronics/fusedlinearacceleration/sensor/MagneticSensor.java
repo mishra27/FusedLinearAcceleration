@@ -114,7 +114,7 @@ public class MagneticSensor implements SensorEventListener {
         if (observersMagnetic.size() == 0) {
             sensorManager.registerListener(this,
                     sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD),
-                    SensorManager.SENSOR_DELAY_FASTEST);
+                    SensorManager.SENSOR_DELAY_GAME);
         }
 
         // Only register the observer if it is not already registered.

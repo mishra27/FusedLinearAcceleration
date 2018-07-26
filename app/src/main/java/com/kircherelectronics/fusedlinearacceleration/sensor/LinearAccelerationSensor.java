@@ -383,8 +383,8 @@ public class LinearAccelerationSensor implements GyroscopeSensorObserver,
         System.arraycopy(acceleration, 0, this.acceleration, 0,
                 acceleration.length);
 
-        this.acceleration = meanFilterAcceleration
-                .filterFloat(this.acceleration);
+        //this.acceleration = meanFilterAcceleration
+         //       .filterFloat(this.acceleration);
     }
 
     @Override
@@ -548,9 +548,13 @@ public class LinearAccelerationSensor implements GyroscopeSensorObserver,
         // Subtract the gravity component of the signal
         // from the input acceleration signal to get the
         // tilt compensated output.
-        linearAcceleration[0] = (this.acceleration[0] - components[0]);
-        linearAcceleration[1] = (this.acceleration[1] - components[1]);
-        linearAcceleration[2] = (this.acceleration[2] - components[2]);
+//        linearAcceleration[0] = (this.acceleration[0] - components[0]);
+//        linearAcceleration[1] = (this.acceleration[1] - components[1]);
+//        linearAcceleration[2] = (this.acceleration[2] - components[2]);
+
+        linearAcceleration[0] = (this.acceleration[0] );
+        linearAcceleration[1] = (this.acceleration[1] );
+        linearAcceleration[2] = (this.acceleration[2] );
 
         this.linearAcceleration = meanFilterLinearAcceleration
                 .filterFloat(this.linearAcceleration);

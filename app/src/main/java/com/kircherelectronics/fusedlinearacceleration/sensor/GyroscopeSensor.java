@@ -115,7 +115,7 @@ public class GyroscopeSensor implements SensorEventListener {
         if (observersGyroscope.size() == 0) {
             sensorManager.registerListener(this,
                     sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE),
-                    SensorManager.SENSOR_DELAY_FASTEST);
+                    SensorManager.SENSOR_DELAY_GAME);
         }
 
         // Only register the observer if it is not already registered.

@@ -1,0 +1,4 @@
+#Thu Jul 26 02:01:17 CDT 2018
+base.0=C\:\\Users\\aksha\\Desktop\\FusedLinearAcceleration-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
+path.0=classes.dex
+renamed.0=classes.dex
